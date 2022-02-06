@@ -1,0 +1,95 @@
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.mid{
+    /* border: 2px solid red; */
+    display: block;
+    width: 46%;
+    margin: 19px auto;
+    font-family: 'Playfair Display', serif;
+}
+.right{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 21px;
+    top: 28px;
+
+
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 24px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover , .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+
+}
+.left img{
+    width: 86px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 5px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    
+}
+.btn:hover{
+    background-color: rgb(31, 30, 30);
+}
+.container{
+    /* border: 2px solid yellow; */
+    margin: 100px 50px;
+    padding: 13px 4px;
+    width: 33%;
+    border-radius: 20px;
+
+}
+.form input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 9px;
+    font-family: 'Playfair Display', serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 102% ;
+    margin: 30px auto;
+
+}
